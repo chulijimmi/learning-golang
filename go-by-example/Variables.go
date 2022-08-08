@@ -31,4 +31,7 @@ func main() {
 	fmt.Printf("b-type: %s\n", reflect.TypeOf(a))
 	fmt.Printf("d-type: %s\n", reflect.TypeOf(d))
 	fmt.Printf("e-type: %s\n", reflect.TypeOf(e))
+
+	//Error: undefined: unknownVariables
+	//fmt.Println(unknownVariables)
 }
