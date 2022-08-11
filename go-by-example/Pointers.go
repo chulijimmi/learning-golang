@@ -37,6 +37,6 @@ func main() {
 	fmt.Println("Pointer(i): ", &i)
 }
 
-// Conclusion:
+// In the nutshell:
 // zeroval doesn’t change the i in main, but zeroptr does
 // because it has a reference to the memory address for that variable.
