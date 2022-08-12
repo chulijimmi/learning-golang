@@ -14,6 +14,13 @@ import (
 )
 
 func main() {
+	str := "example"
+	fmt.Println("char:", str)
+	// Print x str
+	fmt.Println("Str at [0]:", str[1:2])
+	// Print str length
+	fmt.Println("str length:", len(str))
+	fmt.Println("str byte at [0]", utf8.RuneCountInString(str))
 	// s is a string assigned a literal value representing the
 	// word “hello” in the Thai language. Go string literals
 	// are UTF-8 encoded text.
