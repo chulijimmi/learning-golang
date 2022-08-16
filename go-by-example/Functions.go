@@ -27,6 +27,6 @@ func main() {
 	// command-line-arguments
 	// .\Functions.go:27:22: cannot use "a" (untyped string constant)
 	// as int value in argument to addition
-	fail := addition(1, "a")
-	fmt.Println("Fail", fail)
+	// fail := addition(1, "a")
+	// fmt.Println("Fail", fail)
 }

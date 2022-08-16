@@ -24,13 +24,13 @@ func main() {
 	fmt.Println(twoDimension)
 	fmt.Println("-------------------------------------")
 
-	//runtime error: index out of range [2] with length 2
 	var threeDimension [2][3][2]int
 	for i := 0; i < 2; i++ {
 		for j := 0; j < 3; j++ {
-			for k := 0; k < 4; k++ {
-				threeDimension[i][j][k] = i + j + k
-			}
+			//runtime error: index out of range [2] with length 2
+			// for k := 0; k < 4; k++ {
+			// 	threeDimension[i][j][k] = i + j + k
+			// }
 		}
 	}
 	fmt.Println(threeDimension)

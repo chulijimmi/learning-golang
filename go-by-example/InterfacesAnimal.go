@@ -80,8 +80,8 @@ func printVals(vals []interface{}) {
 func printName() {
 	names := []string{"stanley", "bob", "alice"}
 	vals := make([]interface{}, len(names))
-	for i, v := range names {
-		vals[i] = v
+	for key, value := range names {
+		vals[key] = value
 	}
 	printVals(vals)
 }
