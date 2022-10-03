@@ -25,5 +25,7 @@ func main() {
 	p("Repeat:		", s.Repeat("a", 5))
 	p("Replace:		", s.Replace("foo", "o", "x", -1))
 	p("Replace:		", s.Replace("foo", "o", "y", 1))
-	p("Replace:		", s.Split("a-b-c", "-"))
+	p("Split:		", s.Split("a-b-c", "-"))
+	p("ToLower:		", s.ToLower("TEST"))
+	p("ToUpper:		", s.ToUpper("tests"))
 }
